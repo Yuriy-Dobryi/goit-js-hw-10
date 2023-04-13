@@ -1,3 +1,4 @@
+
 export function fetchCountries(country) {
   const options = new URLSearchParams({
     fields: 'name,capital,population,flags,languages',
