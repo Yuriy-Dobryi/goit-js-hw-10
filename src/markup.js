@@ -1,4 +1,6 @@
 
+export { buildCountryMarkup, buildCountriesMarkup };
+
 function buildCountryMarkup({ name, capital, population, flags, languages: languagesCodes }) {
   const listLanguages = Object.values(languagesCodes).join(', ');
 
@@ -26,9 +28,3 @@ function buildCountriesMarkup(countriesList) {
     )
     .join('');
 }
-
-export { buildCountryMarkup, buildCountriesMarkup };
-
-// `<svg class="icon">
-//   <use href="${flags.png}"></use>
-// </svg>;`
