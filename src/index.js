@@ -1,8 +1,8 @@
 
 import './css/styles.css';
-// import 'node-normalize/modern-normalize.css';
 import { fetchCountries } from './fetchCountries.js';
 import { buildCountryMarkup, buildCountriesMarkup } from './markup';
+
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix';
 
