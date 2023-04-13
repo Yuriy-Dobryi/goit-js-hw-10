@@ -1,0 +1,3 @@
+function buildCountryMarkup(countryData) {
+  return ``;
+}
